@@ -72,7 +72,7 @@ function updateFilters() {
     keys.forEach((key, index) => {
       let filteredId = [key];
       let filteredElement = filters[key];
-      filteredElement = filteredElement.toLowerCase();
+      //filteredElement = filteredElement.toLowerCase();
 
       if (filteredId == "datetime") {
         filteredData = filteredData.filter(row => row.datetime === filteredElement);
